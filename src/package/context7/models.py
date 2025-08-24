@@ -9,3 +9,10 @@ class SourceType(Enum):
     REPO = "repo"
     WEBSITE = "website"
     # ...
+
+
+class RunState(str, Enum):
+    FINALIZED = "finalized"
+    INITIAL = "initial"
+    ERROR = "error"
+
